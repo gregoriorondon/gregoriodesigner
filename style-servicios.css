@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: block;
+    float: 0;
+    padding: 0;
+}
+.nav li{
+    display:table-cell;
+      width:150px;
+      height:20px;
+      padding:5px 10px;
+      background-color:rgb(0, 115, 160);
+      border:none;
+      text-align:center;
+      color:#fff;
+      position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    background-color: rgba(17, 0, 255, 0.534);
+    color: rgb(0, 115, 160);
+}
+.nav li>ul{
+    display: none;
+}
+.nav li:hover>ul{
+    display:block;
+      position:absolute;
+      top:30%;
+      left:0px;
+}
+.servicios li{
+  margin-top: 4%;
+}
+.servicios li{
+ list-style: none;
+}
+.servicios li a{
+  font-family: 'Dosis',sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.servicios li a:hover {
+  font-size: 20px;
+  color:#FF7800;
+  text-decoration: underline;
+}
+.servicios i{
+  font-size: 200%;
+  margin-right: 1%;
+}
+.servicios p{
+  font-family: 'Dosis', sans-serif;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: block;
+    float: 0;
+    padding: 0;
+}
+.nav li{
+    display:table-cell;
+      width:150px;
+      height:20px;
+      padding:5px 10px;
+      background-color:rgb(0, 115, 160);
+      border:none;
+      text-align:center;
+      color:#fff;
+      position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    background-color: rgba(17, 0, 255, 0.534);
+    color: rgb(0, 115, 160);
+}
+.nav li>ul{
+    display: none;
+}
+.nav li:hover>ul{
+    display:block;
+      position:absolute;
+      top:30%;
+      left:0px;
+}
+.informacion{
+    color: white;
+}
+.texto{
+  margin: 5%;
+  font-size: 200%;
+  font-family: 'Dosis', sans-serif;
+  color:#FFAF00;
+}
+.titulo{
+  color: #FFAF00;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 3%;
+  margin-left: 5%;
+  font-size: 200%;
+}
+.correo{
+  color: #FFAF00;
+  margin-left: 7%;
+  font-size: 150%;
+}
+.logo{
+  width: 100%;
+}
+.texto2{
+  margin-left: 3%;
+  margin-right: 4%;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 120%;
+}
+.texto2 a{
+  color:white;
+}

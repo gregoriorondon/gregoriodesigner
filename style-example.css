@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: block;
+    float: 0;
+    padding: 0;
+}
+.nav li{
+    display:table-cell;
+      width:150px;
+      height:20px;
+      padding:5px 10px;
+      background-color:rgb(0, 115, 160);
+      border:none;
+      text-align:center;
+      color:#fff;
+      position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    background-color: rgba(17, 0, 255, 0.534);
+    color: rgb(0, 115, 160);
+}
+.nav li>ul{
+    display: none;
+}
+.nav li:hover>ul{
+    display:block;
+      position:absolute;
+      top:30%;
+      left:0px;
+}
+.postere{
+  width: 30%;
+}
+.titulo{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFAA00;
+}
+.contenido{
+  margin-left: 3%;
+  margin-right: 4%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+}
+.poster{
+  width: 50%;
+}
+.proceso{
+  width: 100%;
+}
+.gimp{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 200%;
+}
+.in{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 200%;
+}
+.in p{
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 200%;
+}
+.insta{
+  color: white;
+}
+.insta:hover{
+  filter: brightness(.5);
+}
+.tesoro{
+  width: 50%;
+}
+.CO{
+  width: 50%;
+}
+.corona{
+  width: 50%;
+}
+.bajo{
+  width: 50%;
+}
+.csi{
+  width: 50%;
+}
+.juras{
+  width: 50%;
+}
+.centro{
+  width: 50%;
+}
+.contenido a{
+  text-decoration: none;
+  color: white;
+}
+.contenido a:hover{
+  text-decoration: underline;
+}

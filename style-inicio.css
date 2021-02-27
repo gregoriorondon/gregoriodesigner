@@ -1,0 +1,159 @@
+body{
+    background-color: #363636;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: block;
+    float: 0;
+    padding: 0;
+}
+.nav li{
+    display:table-cell;
+      width:150px;
+      height:20px;
+      padding:5px 10px;
+      background-color:rgb(0, 115, 160);
+      border:none;
+      text-align:center;
+      color:#fff;
+      position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li:hover{
+    background-color: rgba(17, 0, 255, 0.534);
+    color: rgb(0, 115, 160);
+}
+.nav li>ul{
+    display: none;
+}
+.nav li:hover>ul{
+    display:block;
+      position:absolute;
+      top:30%;
+      left:0px;
+}
+.libros{
+  width: 20%;
+  float: left;
+  margin-right: 3%;
+}
+.libros-texto{
+  margin-right: 25%;
+  margin-top: 3%;
+  line-height: 200%;
+  margin-bottom: 20%;
+  font-family: 'Dosis', sans-serif;
+}
+.ba{
+  width: 100%;
+}
+.hi{
+  font-family: 'Quicksand', sans-serif;
+  color: #FFAF00;
+  font-size: 200%;
+}
+.pro{
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+.na{
+  margin-right: 25%;
+  line-height: 200%;
+  font-family: 'Dosis', sans-serif;
+}
+.na1{
+  margin-top: 5%;
+  line-height: 200%;
+  text-decoration: none;
+}
+.na1 p{
+  color: white;
+  margin-top: 5%;
+  line-height: 200%;
+}
+.na1:hover{
+  color: #FFAF00;
+  text-decoration: underline;
+  transition: 1s;
+}
+.na2{
+  line-height: 200%;
+  font-family: 'Dosis', sans-serif;
+}
+.pro{
+  width: 50%;
+}
+.pro:hover{
+  filter: brightness(.5);
+}
+.gimp{
+width: 50%;
+}
+.gimp:hover{
+  filter: brightness(.5);
+}
+.ink{
+  width: 50%;
+  float: left;
+  margin-right: 3%;
+}
+.ink:hover{
+  filter: brightness(.5);
+}
+.li{
+  color: white;
+
+}
+.na3{
+  text-decoration: none;
+}
+.na3 p{
+  color: white;
+}
+.na3:hover{
+  color: #FFAF00;
+  text-decoration: underline;
+  transition: 1s;
+}
+.na4{
+  text-decoration: none;
+}
+.na4 p{
+  color: white;
+}
+
+.na4:hover{
+  color:#FFAF00;
+  text-decoration: underline;
+  transition: 1s;
+}
+.bi{
+  font-size: 150%;
+  font-family: 'Dosis',sans-serif;
+  line-height: 200%;
+  margin-right: 5%;
+}
+.ilu{
+  text-decoration: none;
+}
+.ilu p{
+    color: white;
+}
+.ilu:hover{
+  color: #FFAF00;
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
