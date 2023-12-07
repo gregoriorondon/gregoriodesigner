@@ -12,10 +12,55 @@
     <!--<link rel="stylesheet" href="style-inicio.css">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
-<body style="background-color: #000; color: #fff; font-family: sans-serif;">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+:root{
+  --blanco: #fff;
+}
+.texto{
+  font-size: 70px;
+  font-family: Bungee Outline;
+  color: var(--blanco) ;
+}
+.primer{
+  text-shadow: 0px 0px 10px var(--blanco);
+}
+.o{
+  color: var(--blanco);
+  text-shadow: 0px 0px 10px var(--blanco);
+  animation: o 1s linear infinite;
+}
+@keyframes o {
+  0%, 10%, 35%, 75%, 100%{
+    opacity: 100%;
+  }
+  1%, 11%, 36%, 73%, 76%, 99%{
+    opacity: 20%;
+  }
+}
+.act{
+  color: var(--blanco);
+  text-shadow: 0px 0px 10px var(--blanco);
+  animation: act 2s linear infinite;
+}
+@keyframes act {
+  5%, 12%, 35%, 75%, 100%{
+    opacity: 100%;
+  }
+  1%, 11%, 36%, 73%, 76%, 99%{
+    opacity: 20%;
+  }
+}
+.iza{
+  color: var(--blanco);
+  text-shadow: 0px 0px 10px var(--blanco);
+}
+</style>
+<body style="background-color: #000;">
     <center>
-     <h1>Pagina en mantenimiento o actualizacion</h1> 
-     <i class="fa-solid fa-triangle-exclamation" style="font-size: 70px; color: orange;"></i>
-    </center>
+     <h1 class="texto"><span class="primer">Página en mantenimiento</span><br><span class="o">o</span>  <span class="act">actual</span><span class="iza">ización</span></h1> 
+     <!-- <i class="fa-solid fa-triangle-exclamation" style="font-size: 100px; color: orange;"></i> -->
+     <i class="fa-solid fa-person-digging" style="font-size: 150px; color: orange;"></i>
+     
    </body>
 </html>
